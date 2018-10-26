@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		42FD7CE72183971500E1EA53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD7CE62183971500E1EA53 /* AppDelegate.swift */; };
-		42FD7CE92183971500E1EA53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD7CE82183971500E1EA53 /* ViewController.swift */; };
+		42FD7CE92183971500E1EA53 /* ColorPresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD7CE82183971500E1EA53 /* ColorPresenterVC.swift */; };
 		42FD7CEC2183971500E1EA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FD7CEA2183971500E1EA53 /* Main.storyboard */; };
 		42FD7CEE2183971600E1EA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FD7CED2183971600E1EA53 /* Assets.xcassets */; };
 		42FD7CF12183971600E1EA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FD7CEF2183971600E1EA53 /* LaunchScreen.storyboard */; };
+		42FD7CF921839FE600E1EA53 /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD7CF821839FE600E1EA53 /* ColorPickerVC.swift */; };
+		42FD7CFB2183A2E400E1EA53 /* ColorTransferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD7CFA2183A2E400E1EA53 /* ColorTransferDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42FD7CE32183971500E1EA53 /* colorMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FD7CE62183971500E1EA53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42FD7CE82183971500E1EA53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42FD7CE82183971500E1EA53 /* ColorPresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenterVC.swift; sourceTree = "<group>"; };
 		42FD7CEB2183971500E1EA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42FD7CED2183971600E1EA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42FD7CF02183971600E1EA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FD7CF22183971600E1EA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FD7CF821839FE600E1EA53 /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		42FD7CFA2183A2E400E1EA53 /* ColorTransferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransferDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				42FD7CE62183971500E1EA53 /* AppDelegate.swift */,
-				42FD7CE82183971500E1EA53 /* ViewController.swift */,
+				42FD7CE82183971500E1EA53 /* ColorPresenterVC.swift */,
 				42FD7CEA2183971500E1EA53 /* Main.storyboard */,
 				42FD7CED2183971600E1EA53 /* Assets.xcassets */,
 				42FD7CEF2183971600E1EA53 /* LaunchScreen.storyboard */,
 				42FD7CF22183971600E1EA53 /* Info.plist */,
+				42FD7CF821839FE600E1EA53 /* ColorPickerVC.swift */,
+				42FD7CFA2183A2E400E1EA53 /* ColorTransferDelegate.swift */,
 			);
 			path = colorMagic;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FD7CE92183971500E1EA53 /* ViewController.swift in Sources */,
+				42FD7CE92183971500E1EA53 /* ColorPresenterVC.swift in Sources */,
+				42FD7CFB2183A2E400E1EA53 /* ColorTransferDelegate.swift in Sources */,
 				42FD7CE72183971500E1EA53 /* AppDelegate.swift in Sources */,
+				42FD7CF921839FE600E1EA53 /* ColorPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
